@@ -1,0 +1,18 @@
+
+spring:
+  datasource:
+      url: jdbc:postgresql://localhost:5433/spring-security-master
+      username: postgres
+      password: postgres
+  security:
+    user:
+      name: erica
+      password: 123
+  jpa:
+    properties:
+      dialect: org.hibernate.dialect.PostgreSQLDialect
+      jdbc:
+        batch_size: 100
+server:
+  port: 8081
+

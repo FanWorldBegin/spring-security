@@ -1,0 +1,1 @@
+使用默认的user表和 authorities 存储用户信息
